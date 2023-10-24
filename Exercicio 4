@@ -1,0 +1,21 @@
+4) Desenvolva um algoritmo que leia dois números inteiros e mostre o somatório
+entre eles.
+Ex:
+Digite um valor: 8
+Digite outro valor: 5
+A soma entre 8 e 5 é igual a 13.
+
+Algoritmo "Exercicio3"
+Var
+N1: inteiro
+N2: inteiro
+soma: real
+Inicio
+Escreva ("Digite um valor: ")
+Leia (N1)
+Escreval ("Digite outro valor: ")
+Leia (N2)
+soma <- N1+N2
+Escreval ("A soma entre", N1, " e ", N2, " é ",soma)
+
+Fimalgoritmo

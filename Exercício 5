@@ -1,0 +1,23 @@
+Faça um programa que leia as duas notas de um aluno em uma matéria e mostre
+na tela a sua média na disciplina.
+Ex:
+Nota 1: 4.5
+Nota 2: 8.5
+A média entre 4.5 e 8.5 é igual a 6.5
+
+Algoritmo "Exercicio3"
+Var
+nota1: inteiro
+nota2: inteiro
+soma: real
+media: real
+Inicio
+Escreva ("Digite a primeira nota: ")
+Leia (nota1)
+Escreval ("Digite a segunda nota: ")
+Leia (nota2)
+soma <- nota1+nota2
+media <- soma / 2
+Escreval ("A média entre", nota1, " e ", nota2, " é igual a ",media)
+
+Fimalgoritmo

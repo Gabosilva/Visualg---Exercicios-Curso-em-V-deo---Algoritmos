@@ -1,0 +1,15 @@
+3) Crie um programa que leia o nome e o salário de um funcionário, mostrando no
+final uma mensagem.
+
+Algoritmo "Exercicio3"
+Var
+nome: caractere
+salario: real
+Inicio
+Escreva ("Qual é o seu nome?")
+Leia (nome)
+Escreval ("Qual é o seu salário?")
+Leia (salario)
+Escreval ("O/a Funcionario (a) ", nome, " tem um salario de R$ ",salario)
+
+Fimalgoritmo
